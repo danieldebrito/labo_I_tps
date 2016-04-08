@@ -1,0 +1,49 @@
+# depslib dependency file v1.0
+1459727866 source:c:\documents and settings\administrador\mis documentos\workspaces\c\tp1-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459727346 c:\documents and settings\administrador\mis documentos\workspaces\c\tp1-laboratorio1-danieldebrito\funciones.h
+
+1459728359 source:c:\documents and settings\administrador\mis documentos\workspaces\c\tp1-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1460073971 source:c:\documents and settings\administrador\escritorio\tp1-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1460073971 c:\documents and settings\administrador\escritorio\tp1-laboratorio1-danieldebrito\funciones.h
+
+1460073713 source:c:\documents and settings\administrador\escritorio\tp1-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1460073971 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp1-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1460073971 c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp1-laboratorio1-danieldebrito\funciones.h
+
+1460073713 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp1-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
