@@ -1,0 +1,81 @@
+# depslib dependency file v1.0
+1459453696 source:c:\documents and settings\debrito.pc-debrito\mis documentos\aa -- back up's -- aa\tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459448123 c:\documents and settings\debrito.pc-debrito\mis documentos\aa -- back up's -- aa\tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara\funciones.h
+
+1459448123 source:c:\documents and settings\debrito.pc-debrito\mis documentos\aa -- back up's -- aa\tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459454366 source:f:\tp_1_cascara 2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459454366 f:\tp_1_cascara 2\funciones.h
+
+1459473308 source:f:\tp_1_cascara 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459454366 source:f:\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459454366 f:\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\funciones.h
+
+1459473308 source:f:\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459626506 source:g:\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459454366 g:\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\funciones.h
+
+1459624238 source:g:\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459647775 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+
+1459644594 c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\funciones.h
+
+1459695514 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 01 entrega 08-04-2016\tp_1_cascara 2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	"funciones.h"
+

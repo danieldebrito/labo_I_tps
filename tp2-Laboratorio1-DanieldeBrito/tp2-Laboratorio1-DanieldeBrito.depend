@@ -1,0 +1,109 @@
+# depslib dependency file v1.0
+1461512636 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp_2_daniel_de_brito (3)\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461511833 c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp_2_daniel_de_brito (3)\tp2-laboratorio1-danieldebrito\funciones.h
+
+1461512710 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp_2_daniel_de_brito (3)\tp2-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461972918 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461934502 c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\funciones.h
+
+1461972977 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461945749 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp2-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461934500 c:\documents and settings\debrito.pc-debrito\escritorio\tp2-laboratorio1-danieldebrito\funciones.h
+
+1461935188 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461627194 source:e:\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461613212 e:\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\funciones.h
+
+1461628486 source:e:\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461959048 source:f:\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461934502 f:\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\funciones.h
+
+1461935190 source:f:\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461968404 source:c:\documents and settings\administrador\escritorio\tp2-laboratorio1-danieldebrito\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
+1461934502 c:\documents and settings\administrador\escritorio\tp2-laboratorio1-danieldebrito\funciones.h
+
+1461816507 source:c:\documents and settings\administrador\escritorio\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"funciones.h"
+
