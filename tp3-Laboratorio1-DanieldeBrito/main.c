@@ -1,3 +1,16 @@
+/******************************************************************
+* TP 3  LABORATORIO 1
+*
+* Objetivo: Realizar un programa que permita agregar,
+*           borrar y modificar peliculas en un archivo binario.
+*
+*
+* Version: 1.0 27/05/2016
+*
+* Autor: Daniel Ruben de Brito  1ºEº
+*
+*******************************************************************/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -6,7 +19,7 @@
 #include "validations.h"
 #include "lib.h"
 
-#define TAM 10
+#define TAM 100
 
 
 int main()
@@ -26,10 +39,11 @@ int main()
             system("cls");
             printf("1- Agregar Pelicula\n");
             printf("2- Borrar Pelicula\n");
-            printf("3- Generar Pagina Web y guardar cambios\n");
-            printf("4- Salir\n");
+            printf("3- Modificar Pelicula\n");
+            printf("4- Generar Pagina Web y guardar cambios\n");
+            printf("5- Salir\n");
         }
-        while(capValidaYchequaRangoInt(&opcion,"\nIngrese la opcion del menu deseada: ","ERROR!!, NO es una opcion del menu valida",1,4)==1);
+        while(capValidaYchequaRangoInt(&opcion,"\nIngrese la opcion del menu deseada: ","ERROR!!, NO es una opcion del menu valida",1,5)==1);
 
         switch(opcion)
         {
@@ -45,7 +59,14 @@ int main()
             else
                 printf("No hay ninguna pelicula ingresada");
             break;
-        case 3:/**< Generar Pagina Web */
+        case 3:/**< Modificar Pelicula */
+            system("cls");
+            if((verificaPeliculaExistente(movie,TAM))==0)
+                editMovie(movie,TAM);
+            else
+                printf("No hay ninguna pelicula ingresada");
+            break;
+        case 4:/**< Generar Pagina Web */
             system("cls");
             if((verificaPeliculaExistente(movie,TAM))==0)
             {
@@ -55,7 +76,7 @@ int main()
             else
                 printf("No hay ninguna pelicula ingresada");
             break;
-        case 4:/**< salir */
+        case 5:/**< salir */
             system("cls");
             seguir=0;
             break;

@@ -51,31 +51,7 @@ int buscaPrimerVacio(EMovies* movie, int longitud)
     }
     return retorno;
 }
-/** \brief Verifica si hay alguna pelicula cargada en el array de estructuras
- *
- * \param movie EMovies* posicion de memoria inicial del array de estructuras
- * \param tamanio int tamanio int tamaño del array de estructuras
- * \return int (0) si hay pelicula (-1) si no hay peliculas
- *
- */
-int verificaPeliculaExistente(EMovies* movie, int longitud)
-{
-    int i, retorno=-1;
-
-    if(longitud>0 && movie!=NULL)
-    {
-        for(i=0; i<longitud; i++)
-        {
-            if(movie[i].isEmpty==0)
-            {
-                retorno=0;
-                break;
-            }
-        }
-    }
-    return retorno;
-}
-/** \brief Verifica si existe un avion cargado de acuerdo a si ya existe la matricula
+/** \brief Verifica si existe una pelicula a partir del titulo de la misma
  *
  * \param movie EMovies* posicion de memoria inicial del array de estructuras
  * \param existe[] char mensaje a mostrar si existe
@@ -104,7 +80,31 @@ int verificaSiExisteMovie(EMovies* movie,char existe[],char noExiste[], char aux
     }
     return retorno;
 }
-/** \brief Alta de un avion en un array de estructuras a partir de una matricula nueva no existente
+/** \brief Verifica si hay alguna pelicula cargada en el array de estructuras
+ *
+ * \param movie EMovies* posicion de memoria inicial del array de estructuras
+ * \param tamanio int tamanio int tamaño del array de estructuras
+ * \return int (0) si hay pelicula (-1) si no hay peliculas
+ *
+ */
+int verificaPeliculaExistente(EMovies* movie, int longitud)
+{
+    int i, retorno=-1;
+
+    if(longitud>0 && movie!=NULL)
+    {
+        for(i=0; i<longitud; i++)
+        {
+            if(movie[i].isEmpty==0)
+            {
+                retorno=0;
+                break;
+            }
+        }
+    }
+    return retorno;
+}
+/** \brief Alta de una pelicula nueva en un array de estructuras
  *
  * \param movie EMovies* posicion de memoria inicial del array de estructuras
  * \param indiceVacio int  posicion vacia del array de estructuras donde cargar los datos
@@ -124,7 +124,7 @@ void nuevaMovie(EMovies* movie, int indiceVacio, int longitud)
         {
             do
             {
-                capValidaYchequaRangoStrLibre(auxTitulo,"Ingrese el titulo de la pelicula",2,150);
+                temp=capValidaYchequaRangoStrLibre(auxTitulo,"Ingrese el titulo de la pelicula",2,150);
             }
             while(temp==-1);
             temp=verificaSiExisteMovie(movie,"La pelicula ingresada ya existe","Pelicula ingresada correctamente",auxTitulo,longitud);
@@ -165,7 +165,78 @@ void nuevaMovie(EMovies* movie, int indiceVacio, int longitud)
         movie[indiceVacio].isEmpty=0;
     }
 }
-/** \brief Baja logica de un avion a partir de una matricula existente, cambiendo el capo estado a 1
+/** \brief Modifica una pelicula cargada en un array de estructuras a partir del titulo de una pelicula existente
+ *
+ * \param movie EMovies* posicion de memoria inicial del array de estructuras
+ * \param indiceVacio int  posicion vacia del array de estructuras donde cargar los datos
+ * \param longitud int longitud del array de estructuras
+ * \return void
+ *
+ */
+void editMovie(EMovies* movie, int length)
+{
+    char auxTitulo[150];
+    int temp, i;
+
+    if(length>0 && movie!=NULL)
+    {
+        do{
+            do
+            {
+                temp=capValidaYchequaRangoStrLibre(auxTitulo,"Ingrese el titulo de la pelicula a modificar",2,150);
+            }
+            while(temp==-1);
+        i=verificaSiExisteMovie(movie,"Pelicula ingresada correctamente","La pelicula ingresada no existe",auxTitulo,length);
+        if(i==-1)
+                break;
+
+        printf("Genero Actual: \n%s",movie[i].genero);
+        if(ValidaSeguirSoN("s para modificar, n para continuar"))
+        do
+        {
+            temp=capValidaYchequaRangoStr(movie[i].genero,"Ingrese el genero",1,20);
+        }
+        while(temp==-1);
+
+        printf("Duracion Actual: \n%d",movie[i].duracion);
+        if(ValidaSeguirSoN("s para modificar, n para continuar"))
+        do
+        {
+            temp=capValidaYchequaRangoInt(&movie[i].duracion,"Ingrese la duracion de la pelicula en minutos","ERROR ingrese los minutos correctamente, maximo 300 min",1,300);
+        }
+        while(temp==-1);
+
+
+        printf("Puntuacion Actual: \n%d",movie[i].puntuacion);
+        if(ValidaSeguirSoN("s para modificar, n para continuar"))
+        do
+        {
+            temp=capValidaYchequaRangoInt(&movie[i].puntuacion,"Ingrese puntuacion de 1 a 5","ERROR solo evaluar de 1 a 5",1,5);
+        }
+        while(temp==-1);
+
+        printf("Link Actual: \n%s",movie[i].link);
+        if(ValidaSeguirSoN("s para modificar, n para continuar"))
+        do
+        {
+            temp=capValidaYchequaRangoStrLibre(movie[i].link,"Ingrese el link de la imagen",2,128);
+        }
+        while(temp==-1);
+
+        printf("Descripcion Actual: \n%s",movie[i].descripcion);
+        if(ValidaSeguirSoN("s para modificar, n para continuar"))
+        do
+        {
+            temp=capValidaYchequaRangoStrLibre(movie[i].descripcion,"Ingrese la descripcion de la pelicula",2,255);
+        }
+        while(temp==-1);
+
+        movie[i].isEmpty=0;
+        }
+        while(i!=-1 && (ValidaSeguirSoN("Desea seguir modificando? s : si  - n : no")));
+    }
+}
+/** \brief Baja logica de una pelicula a partir de un titulo existente, cambiando el capo estado a 1
  *
  * \param movie EMovies* posicion de memoria inicial del array de estructuras
  * \param longitud int longitud del array de estructuras
@@ -182,7 +253,7 @@ void baja(EMovies* movie, int longitud)
         do
         {
             capValidaYchequaRangoStrAlfaNro(auxStr,"Ingrese la pelicula a borrar",2,150);
-            temp=verificaSiExisteMovie(movie,"La matricula ingresada correctamente","La Matricula no existe",auxStr,TAM);
+            temp=verificaSiExisteMovie(movie,"Pelicula ingresada correctamente","La Pelicula no existe",auxStr,TAM);
         }
         while(temp==-1);
         printf("Confirma baja ???");

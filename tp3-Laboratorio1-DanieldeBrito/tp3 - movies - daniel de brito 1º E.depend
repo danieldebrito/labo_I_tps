@@ -92,3 +92,34 @@
 	"validations.h"
 	"lib.h"
 
+1464364674 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp3 - movies - daniel de brito 1º e\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464364506 c:\documents and settings\debrito.pc-debrito\escritorio\tp3 - movies - daniel de brito 1º e\validations.h
+
+1464364493 c:\documents and settings\debrito.pc-debrito\escritorio\tp3 - movies - daniel de brito 1º e\lib.h
+
+1464364493 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp3 - movies - daniel de brito 1º e\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464321758 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp3 - movies - daniel de brito 1º e\validations.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+

@@ -19,6 +19,9 @@ int verificaSiExisteMovie(EMovies* movie,char existe[],char noExiste[], char aux
 void nuevaMovie(EMovies* movie, int indiceVacio, int longitud);
 void baja(EMovies* movie, int longitud);
 int verificaPeliculaExistente(EMovies* movie, int longitud);
+void editMovie(EMovies* movie, int length);
+
+
 /// funciones de archivo
 int saveBin(EMovies* movie, int length);
 int loadlengthToFile(EMovies* movie, int length);
