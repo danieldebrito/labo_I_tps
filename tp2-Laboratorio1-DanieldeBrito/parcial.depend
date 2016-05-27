@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1462428602 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"lib.h"
+
+1462428581 c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\lib.h
+
+1462428618 source:c:\documents and settings\administrador\mis documentos\utn tssi\14 programacion i\tps\tp 02 entrega 29-04-2016\tp2-laboratorio1-danieldebrito\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"lib.h"
+

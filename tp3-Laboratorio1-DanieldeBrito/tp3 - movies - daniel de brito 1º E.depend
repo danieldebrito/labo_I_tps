@@ -1,0 +1,94 @@
+# depslib dependency file v1.0
+1464063128 source:c:\documents and settings\debrito.pc-debrito\mis documentos\aa -- back up's -- aa\utn tssi\14 programacion i\tps\tp 03 entrega 20-05-2016\tp3 - movies - daniel de brito 1º e\lib.c
+
+1464064792 source:c:\documents and settings\debrito.pc-debrito\mis documentos\aa -- back up's -- aa\utn tssi\14 programacion i\tps\tp 03 entrega 20-05-2016\tp3 - movies - daniel de brito 1º e\validations.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+
+1463408574 source:f:\tp3 - movies - daniel de brito 1º e\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1463406486 f:\tp3 - movies - daniel de brito 1º e\validations.h
+
+1463406462 f:\tp3 - movies - daniel de brito 1º e\lib.h
+
+1463406462 source:f:\tp3 - movies - daniel de brito 1º e\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464292228 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp3\tp3 - movies - daniel de brito 1º e\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464290398 c:\documents and settings\debrito.pc-debrito\escritorio\tp3\tp3 - movies - daniel de brito 1º e\validations.h
+
+1464290307 c:\documents and settings\debrito.pc-debrito\escritorio\tp3\tp3 - movies - daniel de brito 1º e\lib.h
+
+1464291692 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp3\tp3 - movies - daniel de brito 1º e\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464290347 source:c:\documents and settings\debrito.pc-debrito\escritorio\tp3\tp3 - movies - daniel de brito 1º e\validations.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464326420 source:c:\users\daniel\desktop\tp3\tp3 - movies - daniel de brito 1º e\lib.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464326593 c:\users\daniel\desktop\tp3\tp3 - movies - daniel de brito 1º e\validations.h
+
+1464326593 c:\users\daniel\desktop\tp3\tp3 - movies - daniel de brito 1º e\lib.h
+
+1464326532 source:c:\users\daniel\desktop\tp3\tp3 - movies - daniel de brito 1º e\main.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
+1464321756 source:c:\users\daniel\desktop\tp3\tp3 - movies - daniel de brito 1º e\validations.c
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<conio.h>
+	<string.h>
+	"validations.h"
+	"lib.h"
+
